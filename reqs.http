@@ -1,4 +1,4 @@
-@server = https://juliorivero1996-obscure-space-computing-6jgqvwr5qr935qv4-8080.preview.app.github.dev
+@server = https://ec3-juliorivero.onrender.com
 @api = {{server}}/api/ec3
 
 ################ Categorias: ################
@@ -8,7 +8,7 @@ GET {{api}}/categorias
 POST {{api}}/categorias
 Content-Type: application/json
 
-{"nombre": "Instrumentos de Cuerda"}
+{"nombre": "Instrumentos de Viento"}
 ################ Instrumentos: ################
 ###
 GET {{api}}/instrumentos
@@ -16,7 +16,7 @@ GET {{api}}/instrumentos
 POST {{api}}/instrumentos
 Content-Type: application/json
 
-{"nombre": "Guitarra", "categoria": "http://localhost/api/ec3/categorias/1"}
+{"nombre": "Flauta", "categoria": "http://localhost/api/ec3/categorias/2"}
 ###
 GET {{api}}/instrumentos/1/categoria
 ###
